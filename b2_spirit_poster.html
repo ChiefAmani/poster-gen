@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  body {
+    width: 1080px;
+    height: 1080px;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* Sciency blue-green gradient */
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .container {
+    padding: 40px;
+    max-width: 900px;
+    z-index: 1;
+  }
+  h1 {
+    font-size: 6em;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
+  }
+  p {
+    font-size: 1.8em;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: #c0e0ff;
+  }
+  .image-placeholder {
+    width: 80%;
+    height: 400px; /* Placeholder height */
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px dashed rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 30px;
+  }
+  .image-placeholder::before {
+    content: "Image of B-2 Spirit Bomber Here";
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>B-2 Spirit</h1>
+    <p>Unrivaled stealth, unmatched global reach. The B-2 Spirit bomber delivers precision and power, ensuring strategic advantage in any theater.</p>
+    <div class="image-placeholder"></div>
+  </div>
+</body>
+</html>
